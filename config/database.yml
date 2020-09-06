@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: doctor_appointment
+  port: 5433
+  username: root
+  password: root
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: doctor_appointment
+  port: 5433
+  username: root
+  password: root
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: doctor_appointment
+  port: 5433 
+  username: root
+  password: root
+  host: localhost
